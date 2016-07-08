@@ -22,7 +22,7 @@ namespace CaterUI
         public event Action Refresh;
         private void TableInfoFrm_Load(object sender, EventArgs e)
         {
-            LoadTypeList();
+             LoadTypeList();
             LoadList();
         }
 
